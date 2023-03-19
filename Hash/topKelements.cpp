@@ -59,7 +59,7 @@ int main(){
     cin>>k;
     Solution obj;
     vector<int> ans = obj.topK(nums,k);
-    for(auto i: nums)
+    for(auto i: ans)
       cout<<i<<" ";
     cout<<endl;
   }
