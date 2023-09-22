@@ -17,7 +17,7 @@ public:
 
     int findUpar(int node){
         if(node == parent[node])    return node;
-        return parent[node]= findUpar(parent[node]);
+        return parent[node]= findUpar(parent[node]);    //Path Compression
     }
 
     void unionByRank(int u,int v){
